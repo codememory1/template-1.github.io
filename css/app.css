@@ -71,7 +71,7 @@ a {
     display: inline-block;
 }
 
-.btn-orange,.btn-purple {
+.btn-orange, .btn-purple {
     transition: 0.5s all;
 }
 
@@ -199,9 +199,7 @@ a {
     color: var(--accent);
 }
 
-.header__top-menu {
-    
-}
+.header__top-menu {}
 
 .menu {
     display: flex;
