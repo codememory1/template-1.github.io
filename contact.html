@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Без НАЗВАНИЯ - Новости</title>
-    <link rel="stylesheet" href="../all.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="./css/app.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -80,37 +81,37 @@
         <div class="container">
             <div class="contact-wrap grid">
                 <div class="contact-left">
-                    <h1 class="contact-header">Контакты</h1>
+                    <h1 class="contact-header" data-aos="fade-right">Контакты</h1>
                     <span class="contact__mini-info">
                         Мы работаем по всей России
                     </span>
                     <div class="contact-data flex">
                         <div class="bell__phone-email">
-                            <span class="phone">
+                            <span class="phone" style="margin-top: 10px" data-aos="zoom-in">
                                 <i class="fas fa-phone-alt"></i>
                                 8 800 000-00-00
                             </span>
                             <br>
-                            <span class="email">
+                            <span class="email" data-aos="zoom-in" data-aos-delay="400">
                                 <i class="fas fa-envelope"></i>
                                 email@email.com
                             </span>
                         </div>
                     </div>
                     <div class="top__info-networks contact__networks flex">
-                        <a href="#" class="networks__whatsapp">
+                        <a href="#" class="networks__whatsapp" data-aos="zoom-in" data-aos-delay="700">
                             <i class="fab fa-whatsapp"></i>
                         </a>
-                        <a href="#" class="networks__viber">
+                        <a href="#" class="networks__viber" data-aos="zoom-in" data-aos-delay="1000">
                             <i class="fab fa-viber"></i>
                         </a>
-                        <a href="#" class="networks__telegram">
+                        <a href="#" class="networks__telegram" data-aos="zoom-in" data-aos-delay="1300">
                             <i class="fab fa-telegram-plane"></i>
                         </a>
                     </div>
                     <div class="contact__qr-code flex">
-                        <img src="img/qr-code.png" alt="">
-                        <div class="qr__code__text-container">
+                        <img src="img/qr-code.png" alt="" data-aos="fade-up" data-aos-delay="1600">
+                        <div class="qr__code__text-container" data-aos="fade-left" data-aos-delay="1900">
                             <h3 class="qr__code-header">
                                 Все наши контакты в этом QR коде
                             </h3>
@@ -120,15 +121,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="contact-right-form">
+                <div class="contact-right-form" data-aos="fade-left" data-aos-delay="2200">
                     <div class="wrap-contact-form">
                         <h2 class="contact__form-title">Форма обратной связи</h2>
                         <form action="" method="POST">
-                            <input type="text" placeholder="Как к Вам обращаться?">
-                            <textarea cols="30" rows="10" placeholder="Желаемые документы"></textarea>
-                            <input type="phone" placeholder="+7 (__) __ - __ - __">
-                            <input type="email" placeholder="Email">
-                            <button class="accent-btn btn-orange">Отправить заявку</button>
+                            <input type="text" placeholder="Как к Вам обращаться?" data-aos="zoom-in" data-aos-delay="2500">
+                            <textarea cols="30" rows="10" placeholder="Желаемые документы" data-aos="zoom-in" data-aos-delay="2800"></textarea>
+                            <input type="phone" placeholder="+7 (__) __ - __ - __" data-aos="zoom-in" data-aos-delay="2700">
+                            <input type="email" placeholder="Email" data-aos="zoom-in" data-aos-delay="2900">
+                            <button class="accent-btn btn-orange" data-aos="zoom-in" data-aos-delay="3000">Отправить заявку</button>
                         </form>
                     </div>
                 </div>
@@ -217,5 +218,8 @@
             </span>
         </div>
     </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>

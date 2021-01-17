@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Без НАЗВАНИЯ - Новости</title>
-    <link rel="stylesheet" href="../all.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="./css/app.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -78,9 +79,9 @@
     
     <div class="all__news">
         <div class="container">
-            <h1 class="all__news-header">Новости</h1>
+            <h1 class="all__news-header" data-aos="fade-right">Новости</h1>
             <div class="all__news-wrap grid">
-                <div class="item-news">
+                <div class="item-news" data-aos="fade-up" data-aos-duration="900">
                     <img src="img/Bitmap4.png" alt="">
                     <p class="item-news__date">
                         02.03.2019
@@ -92,7 +93,7 @@
                         Государство планирует реализовать значительные улучшения в сфере…
                     </p>
                 </div>
-                <div class="item-news">
+                <div class="item-news" data-aos="fade-up" data-aos-duration="900" data-aos-delay="900">
                     <img src="img/Bitmap-5.png" alt="">
                     <p class="item-news__date">
                         02.03.2019
@@ -104,7 +105,7 @@
                         Государство планирует реализовать значительные улучшения в сфере…
                     </p>
                 </div>
-                <div class="item-news">
+                <div class="item-news" data-aos="fade-up" data-aos-duration="900" data-aos-delay="1500">
                     <img src="img/Bitmap4.png" alt="">
                     <p class="item-news__date">
                         02.03.2019
@@ -116,7 +117,7 @@
                         Государство планирует реализовать значительные улучшения в сфере…
                     </p>
                 </div>
-                <div class="item-news">
+                <div class="item-news" data-aos="fade-up" data-aos-duration="900" data-aos-delay="2000">
                     <img src="img/Bitmap-5.png" alt="">
                     <p class="item-news__date">
                         02.03.2019
@@ -128,7 +129,7 @@
                         Государство планирует реализовать значительные улучшения в сфере…
                     </p>
                 </div>
-                <div class="item-news">
+                <div class="item-news" data-aos="fade-down" data-aos-duration="900" data-aos-delay="2300">
                     <img src="img/Bitmap4.png" alt="">
                     <p class="item-news__date">
                         02.03.2019
@@ -140,7 +141,7 @@
                         Государство планирует реализовать значительные улучшения в сфере…
                     </p>
                 </div>
-                <div class="item-news">
+                <div class="item-news" data-aos="fade-down" data-aos-duration="900" data-aos-delay="2600">
                     <img src="img/Bitmap-5.png" alt="">
                     <p class="item-news__date">
                         02.03.2019
@@ -152,7 +153,7 @@
                         Государство планирует реализовать значительные улучшения в сфере…
                     </p>
                 </div>
-                <div class="item-news">
+                <div class="item-news" data-aos="fade-down" data-aos-duration="900" data-aos-delay="2900">
                     <img src="img/Bitmap4.png" alt="">
                     <p class="item-news__date">
                         02.03.2019
@@ -164,7 +165,7 @@
                         Государство планирует реализовать значительные улучшения в сфере…
                     </p>
                 </div>
-                <div class="item-news">
+                <div class="item-news" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="3000">
                     <img src="img/Bitmap-5.png" alt="">
                     <p class="item-news__date">
                         02.03.2019
@@ -178,13 +179,13 @@
                 </div>
             </div>
             <div class="pagination flex">
-                <a href="#" class="active">1</span>
-                <a href="#">2</a>
-                <a href="#">3</a>
-                <a href="#">4</a>
-                <a href="#">5</a>
-                <a href="#">...</a>
-                <a href="#">12</a>
+                <a href="#" class="active" data-aos="flip-left">1</span>
+                <a href="#" data-aos="flip-left" data-aos-delay="300">2</a>
+                <a href="#" data-aos="flip-left" data-aos-delay="600">3</a>
+                <a href="#" data-aos="flip-left" data-aos-delay="900">4</a>
+                <a href="#" data-aos="flip-left" data-aos-delay="1200">5</a>
+                <a href="#" data-aos="flip-left" data-aos-delay="1500">...</a>
+                <a href="#" data-aos="flip-left" data-aos-delay="1800">12</a>
             </div>
         </div>
     </div>
@@ -270,5 +271,8 @@
             </span>
         </div>
     </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
